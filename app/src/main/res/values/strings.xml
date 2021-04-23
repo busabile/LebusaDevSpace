@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">LetsohaDevSpace</string>
+    <string name="letsoha_code_space">Letsoha Code Space</string>
+    <string name="next">Next</string>
+    <string name="enter_your_name_here">Enter your name here:</string>
+    <string name="back">Back</string>
+    <string name="calculate_area_of_a_recangular_tank">Calculate area of a recangular tank</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_name_to_continue">Enter your Name to continue</string>
+    <string name="home">Home</string>
+    <string name="welcome_to_my_code_space">Welcome to my code space</string>
+    <string name="calculation">Calculation</string>
+    <string name="about_me">About Me</string>
+    <string name="my_dev_profile">My Dev Profile</string>
+    <string name="my_profile">My Profile</string>
+    <string name="my_details">My Details</string>
+    <string name="lebusa_letsoha">Lebusa Letsoha</string>
+    <string name="todo">TODO</string>
+    <string name="_27_78_40_2234">+27 78 40 2234</string>
+    <string name="call">call</string>
+    <string name="_216059186_mycput_ac_za">216059186@mycput.ac.za</string>
+    <string name="dzedzemania">dzedzeMania</string>
+    <string name="https_www_linkedin_com_in_lebusa_letsoha">https://www.linkedin.com/in/lebusa-letsoha</string>
+    <string name="nothing">nothing</string>
+    <string name="hihi">hihi</string>
+    <string name="nesa">nesa</string>
+    <string name="display_results">Display results</string>
+    <string name="calculate_the_surface_area_of_tank">Calculate the Surface Area of tank</string>
+    <string name="enter_length">Enter length</string>
+    <string name="enter_width">Enter Width</string>
+    <string name="enter_height">Enter height</string>
+    <string name="calculate">Calculate</string>
+    <string name="enter_length_size">Enter length size</string>
+    <string name="enter_width_size">Enter width size</string>
+    <string name="enter_height_size">Enter height size</string>
+</resources>

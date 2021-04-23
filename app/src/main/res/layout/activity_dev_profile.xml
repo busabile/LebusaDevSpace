@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#07D3CE"
+    tools:context=".DevProfile">
+
+
+  <Button
+      android:id="@+id/buttonMenuScr"
+      android:layout_width="85dp"
+      android:layout_height="34dp"
+      android:layout_marginStart="56dp"
+      android:layout_marginTop="16dp"
+      android:text="@string/back"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textViewMyDetails"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="36dp"
+      android:text="@string/my_details"
+      android:textColor="#0E0E0E"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.585"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textViewStudeName"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="72dp"
+      android:text="@string/lebusa_letsoha"
+      android:textColor="@color/black"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.577"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textViewMyDetails" />
+
+  <ImageButton
+      android:id="@+id/imageStdName"
+      android:layout_width="111dp"
+      android:layout_height="97dp"
+      android:layout_marginStart="44dp"
+      android:layout_marginBottom="496dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:srcCompat="@drawable/test"
+      android:contentDescription="@string/todo" />
+
+  <TextView
+      android:id="@+id/textViewContact"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="88dp"
+      android:text="@string/_27_78_40_2234"
+      android:textColor="#0E0E0E"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.581"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textViewStudeName" />
+
+  <ImageButton
+      android:id="@+id/imageCall"
+      android:layout_width="104dp"
+      android:layout_height="59dp"
+      android:layout_marginBottom="408dp"
+      android:contentDescription="@string/call"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toStartOf="@+id/textViewContact"
+      app:layout_constraintHorizontal_bias="0.641"
+      app:layout_constraintStart_toStartOf="parent"
+      app:srcCompat="@android:drawable/sym_action_call" />
+
+  <TextView
+      android:id="@+id/textViewEmail"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="316dp"
+      android:text="@string/_216059186_mycput_ac_za"
+      android:textColor="#121212"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.767"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <ImageButton
+      android:id="@+id/imageButton11"
+      android:layout_width="100dp"
+      android:layout_height="64dp"
+      android:layout_marginBottom="304dp"
+      android:contentDescription="@string/hihi"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.167"
+      app:layout_constraintStart_toStartOf="parent"
+      app:srcCompat="@drawable/email" />
+
+  <TextView
+      android:id="@+id/textViewtwitter"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="208dp"
+      android:text="@string/dzedzemania"
+      android:textColor="#0B0A0A"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.567"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <ImageButton
+      android:id="@+id/imageButton14"
+      android:layout_width="100dp"
+      android:layout_height="83dp"
+      android:layout_marginStart="52dp"
+      android:layout_marginBottom="168dp"
+      android:contentDescription="@string/nothing"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:srcCompat="@drawable/twitterr" />
+
+  <TextView
+      android:id="@+id/textViewLinkdin"
+      android:layout_width="186dp"
+      android:layout_height="57dp"
+      android:layout_marginStart="180dp"
+      android:layout_marginBottom="56dp"
+      android:text="@string/https_www_linkedin_com_in_lebusa_letsoha"
+      android:textColor="#101010"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <ImageButton
+      android:id="@+id/imageButton15"
+      android:layout_width="100dp"
+      android:layout_height="74dp"
+      android:layout_marginStart="44dp"
+      android:layout_marginBottom="48dp"
+      android:contentDescription="@string/nesa"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:srcCompat="@drawable/linkedin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
